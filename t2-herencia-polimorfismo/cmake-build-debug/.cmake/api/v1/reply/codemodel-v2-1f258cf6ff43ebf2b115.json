@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "t2_herencia_polimorfismo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "t2_herencia_polimorfismo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t2_herencia_polimorfismo-Debug-0e40d4d631b0a516ee3c.json",
+					"name" : "t2_herencia_polimorfismo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/t2-herencia-polimorfismo/cmake-build-debug",
+		"source" : "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/t2-herencia-polimorfismo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

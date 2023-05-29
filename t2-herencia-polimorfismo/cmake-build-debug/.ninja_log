@@ -1,0 +1,7 @@
+# ninja log v5
+14	748	7070877469026147	CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj	58313507a7d8975d
+19	754	7070877469195695	CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj	62e3fd1d6015f0a1
+1	822	7070877469933725	CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj	c82691865ea464e8
+37	862	7070877470377670	CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj	70f562bb9b5042fc
+7	877	7070877470547212	CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj	ba171e4c66b3b614
+877	1159	7070877473349711	t2_herencia_polimorfismo.exe	f254f443cd0658b2

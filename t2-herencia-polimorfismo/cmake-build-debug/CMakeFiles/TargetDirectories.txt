@@ -1,0 +1,3 @@
+C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/t2-herencia-polimorfismo/cmake-build-debug/CMakeFiles/t2_herencia_polimorfismo.dir
+C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/t2-herencia-polimorfismo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/t2-herencia-polimorfismo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
