@@ -8,10 +8,13 @@
 
 class Tile {
     char type;
+    int amount;
 public:
     Tile() = default;
     Tile(const char &type): type(type) { };
     Tile(const Tile &tileCopy): type(tileCopy.type) { };
+    int getAmount();
+    void setAmount(int &amount): { this->amount = amount};
     void print();
 };
 

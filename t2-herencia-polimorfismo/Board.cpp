@@ -12,20 +12,16 @@ using namespace std;
 
 Board::Board() { // Initializes the 'boxes' vector with 31 elements, each set to the character 'N'
     // It then sets specific elements of the vector to 'S' and 'L', representing the snakes and ladders
-    char generalBox = 'N';
-    boxes = vector<Tile>(31, 'N');
-    boxes[4] = 'S';
-    boxes[13] = 'S';
-    boxes[24] = 'S';
-    boxes[6] = 'L';
-    boxes[19] = 'L';
-    boxes[10] = 'L';
+    //boxes[4] = 'S';
+    //boxes[13] = 'S';
+    //boxes[24] = 'S';
+    //boxes[6] = 'L';
+    //boxes[19] = 'L';
+    //boxes[10] = 'L';
 }
 
-Board::Board(const vector<Tile> &boxes, const int &numTiles) {
-    boxes = vector<Tile *>(numTiles, 'N');
-
-
+Board::Board(const vector<Tile*> &boxes, const int &numTiles) {
+    for
 }
 
 void Board::printBoard() { // Prints the value pointed to by the iterator, followed by a newline character

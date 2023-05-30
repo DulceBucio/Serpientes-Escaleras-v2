@@ -13,13 +13,14 @@
 #include "Tile.h"
 using namespace std;
 
+
 class Board {
     vector<Tile *> boxes;
     int numTiles;
 public:
     // Constructors
     Board();
-    Board(const vector<Tile> &boxes, const int &numTiles): boxes(boxes), numTiles(numTiles) { };
+    Board(const vector<Tile*> &boxes, const int &numTiles): boxes(boxes), numTiles(numTiles) { };
     Board(const Board &boardCopy): boxes(boardCopy.boxes) { };
     // Destructor
     ~Board() {};
