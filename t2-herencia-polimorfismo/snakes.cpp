@@ -34,6 +34,6 @@ int main() {
         //}
     //}
     Board b1(10, 2, 4);
-    b1.printBoard();
+    cout << b1.getType(9);
     return 0;
 };

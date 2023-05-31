@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "Board.h"
-#include <iostream>
+#include "Tile.h"
 #include <cstdlib>
 #include <ctime>
 
@@ -56,3 +56,6 @@ void Board::printBoard() { // Prints the value pointed to by the iterator, follo
         iterador->print();
 }
 
+char Board::getType(int index) {
+    return boxes[index]->getType();
+}

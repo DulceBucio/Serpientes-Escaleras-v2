@@ -26,10 +26,9 @@ public:
     Board(const Board &boardCopy): boxes(boardCopy.boxes) { };
     // Destructor
     ~Board() {};
-    // Accessor
-    //char getType(int);
     // Method
     void printBoard();
+    char getType(int);
 };
 
 

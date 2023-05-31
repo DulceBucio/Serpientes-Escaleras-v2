@@ -13,7 +13,7 @@ public:
     Tile() = default;
     Tile(const char &type):type(type){ };
     Tile(const Tile &tileCopy): type(tileCopy.type) { };
-    char getType() { return  type; }
+    virtual char getType() { return  type; }
     void setType(const char &type) { this-> type = type; }
     virtual void print();
 };
