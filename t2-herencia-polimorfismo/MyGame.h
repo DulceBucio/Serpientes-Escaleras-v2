@@ -8,19 +8,23 @@
 #ifndef SERPIENTES_ESCALERAS_MYGAME_H
 #define SERPIENTES_ESCALERAS_MYGAME_H
 #include <iostream>
+#include <vector>
 #include "Player.h"
 #include "Board.h"
 #include "Dice.h"
 
 class MyGame {
     int turn;
-    Player players[2];
+    int numPlayers;
+    vector<Player> players;
     Player currentPlayer;
     int maxTurns;
     Board board;
+    int penalty, reward, tiles, snakes, ladders;
 public:
     // Constructor
     MyGame();
+    MyGame(int, int, int, int, int, int, int);
     // Destructor
     ~MyGame();
     // Methods
@@ -30,6 +34,8 @@ public:
     void printTurn(Player &player);
     void playGame();
     void start();
+    bool hasWinner();
+    bool reachedTurnLimit();
 };
 
 #endif //SERPIENTES_ESCALERAS_MYGAME_H

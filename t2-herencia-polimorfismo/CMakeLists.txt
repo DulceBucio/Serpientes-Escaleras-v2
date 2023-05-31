@@ -3,5 +3,5 @@ project(t2_herencia_polimorfismo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(t2_herencia_polimorfismo snakes.cpp Tile.cpp Snake.cpp Ladder.cpp Board.cpp)
+add_executable(t2_herencia_polimorfismo snakes.cpp Tile.cpp Snake.cpp Ladder.cpp Board.cpp MyGame.cpp Dice.cpp Player.cpp)
 

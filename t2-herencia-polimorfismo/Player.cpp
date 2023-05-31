@@ -14,6 +14,10 @@ Player::Player(int playerNumber, int square) { // Constructor by arguments
     this->square = square;
 }
 
+void Player::init(int playerNumber) {
+    setPlayerNumber(playerNumber);
+    setSquare(1);
+}
 Player::~Player() {} // Destructor
 
 void Player::printPlayer() { // Method that shows the player attributes

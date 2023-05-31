@@ -14,16 +14,25 @@ MyGame::MyGame() { // Sets up the initial state of the game by initializing the 
     // player numbers, and their starting positions on the board
     maxTurns = 30;
     turn = 1;
-    Board board;
     players[0].setPlayerNumber(1);
     players[1].setPlayerNumber(2);
     players[0].setSquare(1);
     players[1].setSquare(1);
 }
 
+MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int numPlayers, int userMaxTurns, int userReward, int userPenalty) {
+    Board board(userTiles, userSnakes, userLadders);
+    reward = userReward;
+    penalty = userPenalty;
+    maxTurns = userMaxTurns;
+    players.resize(numPlayers);
+    for (int i = 0; i < numPlayers; i++){
+        players[i].init(i);
+    }
+}
 
 void MyGame::printTurn(Player &player) { // Prints the details of a player's turn
-    srand(time(0));
+    //srand(time(0));
     cout << turn << " ";
     Dice dice;
     player.printPlayer();
@@ -32,14 +41,14 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
     player.setSquare(player.getSquare()+currentDice);
     char currentType = board.getType(player.getSquare());
     if (currentType == 'S') {
-        player.setSquare(player.getSquare()-3);
+        player.setSquare(player.getSquare()-penalty);
     }
     if (currentType == 'L') {
-        player.setSquare(player.getSquare()+3);
+        player.setSquare(player.getSquare()+reward);
     }
 
     int finalSquare = player.getSquare();
-    if (finalSquare > 30) {
+    if (finalSquare >= 30) {
         finalSquare = 30;
         currentType = 'N';
     }
@@ -72,5 +81,6 @@ void MyGame::start() { // Begins the game, manages the turn-based gameplay, and 
         exit(0);
     }
 }
+
 
 MyGame::~MyGame() {}

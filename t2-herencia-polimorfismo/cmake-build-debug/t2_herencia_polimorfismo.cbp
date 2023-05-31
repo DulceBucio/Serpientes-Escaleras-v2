@@ -90,10 +90,28 @@
 		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Board.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Dice.cpp">
+			<Option target="t2_herencia_polimorfismo"/>
+		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Dice.h">
+			<Option target="t2_herencia_polimorfismo"/>
+		</Unit>
 		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Ladder.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
 		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Ladder.h">
+			<Option target="t2_herencia_polimorfismo"/>
+		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/MyGame.cpp">
+			<Option target="t2_herencia_polimorfismo"/>
+		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/MyGame.h">
+			<Option target="t2_herencia_polimorfismo"/>
+		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Player.cpp">
+			<Option target="t2_herencia_polimorfismo"/>
+		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Player.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
 		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/Snake.cpp">
