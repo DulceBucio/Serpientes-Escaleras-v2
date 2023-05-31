@@ -13,15 +13,18 @@
 
 using namespace std;
 
-//Board::Board() { // Initializes the 'boxes' vector with 31 elements, each set to the character 'N'
+Board::Board() { // Initializes the 'boxes' vector with 31 elements, each set to the character 'N'
     // It then sets specific elements of the vector to 'S' and 'L', representing the snakes and ladders
-    //boxes[4] = 'S';
-    //boxes[13] = 'S';
-    //boxes[24] = 'S';
-    //boxes[6] = 'L';
-    //boxes[19] = 'L';
-    //boxes[10] = 'L';
-//}
+    for (int i = 0; i < 31; i++) {
+        this->boxes.push_back(new Tile('N'));
+    }
+    this->boxes[4] = new Snake('S');
+    this->boxes[13] = new Snake('S');
+    this->boxes[24] = new Snake('S');
+    this->boxes[6] = new Ladder('L');
+    this->boxes[19] = new Ladder('L');
+    this->boxes[10] = new Ladder('L');
+}
 
 Board::Board(int numTiles, int numSnakes, int numLadders) {
     srand(time(0)); // Use current time as seed for random generator
@@ -33,14 +36,14 @@ Board::Board(int numTiles, int numSnakes, int numLadders) {
     }
 
     // Change random tiles to Snakes
-    for (int i = 0; i < numSnakes; i++) {
+    for (int i = 0; i <= numSnakes; i++) {
         int pos = rand() % numTiles;
         delete this->boxes[pos];
         this->boxes[pos] = new Snake('S');
     }
 
     // Change random tiles to Ladders
-    for (int i = 0; i < numLadders; i++) {
+    for (int i = 0; i <= numLadders; i++) {
         int pos = rand() % numTiles;
         delete this->boxes[pos];
         this->boxes[pos] = new Ladder('L');

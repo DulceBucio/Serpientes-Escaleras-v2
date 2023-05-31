@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/t2-herencia-polimorfismo
+# Install script for directory: C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/Serpientes-Escaleras-v2/t2-herencia-polimorfismo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

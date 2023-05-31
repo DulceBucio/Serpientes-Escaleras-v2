@@ -21,6 +21,7 @@ class Board {
     int numTiles, numSnakes, numLadders;
 public:
     // Constructors
+    Board();
     Board(int numTiles, int numSnakes, int numLadders);
     Board(const Board &boardCopy): boxes(boardCopy.boxes) { };
     // Destructor
