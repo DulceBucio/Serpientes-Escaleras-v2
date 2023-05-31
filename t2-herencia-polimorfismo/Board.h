@@ -16,16 +16,15 @@ using namespace std;
 
 class Board {
     vector<Tile *> boxes;
-    int numTiles;
+    int numTiles, numSnakes, numLadders;
 public:
     // Constructors
-    Board();
-    Board(const vector<Tile*> &boxes, const int &numTiles): boxes(boxes), numTiles(numTiles) { };
+    Board(int numTiles, int numSnakes, int numLadders);
     Board(const Board &boardCopy): boxes(boardCopy.boxes) { };
     // Destructor
     ~Board() {};
     // Accessor
-    char getType(int);
+    //char getType(int);
     // Method
     void printBoard();
 };

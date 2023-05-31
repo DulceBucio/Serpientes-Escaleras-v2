@@ -6,11 +6,12 @@
 #define T2_HERENCIA_POLIMORFISMO_LADDER_H
 #include "Tile.h"
 
-class Ladder {
-    Tile ladder;
+class Ladder: public Tile {
 public:
-    Ladder();
-    ~Ladder();
+    Ladder() = default;
+    Ladder(const char &type, const int &amount): Tile(type, amount) { };
+    ~Ladder() { };
+    void print();
 };
 
 

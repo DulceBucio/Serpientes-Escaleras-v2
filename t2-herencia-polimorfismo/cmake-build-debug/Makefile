@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo"
+CMAKE_SOURCE_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -152,77 +152,77 @@ Board.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
-Dice.obj: Dice.cpp.obj
-.PHONY : Dice.obj
+Ladder.obj: Ladder.cpp.obj
+.PHONY : Ladder.obj
 
 # target to build an object file
-Dice.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj
-.PHONY : Dice.cpp.obj
+Ladder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj
+.PHONY : Ladder.cpp.obj
 
-Dice.i: Dice.cpp.i
-.PHONY : Dice.i
+Ladder.i: Ladder.cpp.i
+.PHONY : Ladder.i
 
 # target to preprocess a source file
-Dice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.i
-.PHONY : Dice.cpp.i
+Ladder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.i
+.PHONY : Ladder.cpp.i
 
-Dice.s: Dice.cpp.s
-.PHONY : Dice.s
+Ladder.s: Ladder.cpp.s
+.PHONY : Ladder.s
 
 # target to generate assembly for a file
-Dice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.s
-.PHONY : Dice.cpp.s
+Ladder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.s
+.PHONY : Ladder.cpp.s
 
-MyGame.obj: MyGame.cpp.obj
-.PHONY : MyGame.obj
+Snake.obj: Snake.cpp.obj
+.PHONY : Snake.obj
 
 # target to build an object file
-MyGame.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj
-.PHONY : MyGame.cpp.obj
+Snake.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj
+.PHONY : Snake.cpp.obj
 
-MyGame.i: MyGame.cpp.i
-.PHONY : MyGame.i
+Snake.i: Snake.cpp.i
+.PHONY : Snake.i
 
 # target to preprocess a source file
-MyGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.i
-.PHONY : MyGame.cpp.i
+Snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.i
+.PHONY : Snake.cpp.i
 
-MyGame.s: MyGame.cpp.s
-.PHONY : MyGame.s
+Snake.s: Snake.cpp.s
+.PHONY : Snake.s
 
 # target to generate assembly for a file
-MyGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.s
-.PHONY : MyGame.cpp.s
+Snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.s
+.PHONY : Snake.cpp.s
 
-Player.obj: Player.cpp.obj
-.PHONY : Player.obj
+Tile.obj: Tile.cpp.obj
+.PHONY : Tile.obj
 
 # target to build an object file
-Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj
-.PHONY : Player.cpp.obj
+Tile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj
+.PHONY : Tile.cpp.obj
 
-Player.i: Player.cpp.i
-.PHONY : Player.i
+Tile.i: Tile.cpp.i
+.PHONY : Tile.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+Tile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.i
+.PHONY : Tile.cpp.i
 
-Player.s: Player.cpp.s
-.PHONY : Player.s
+Tile.s: Tile.cpp.s
+.PHONY : Tile.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+Tile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.s
+.PHONY : Tile.cpp.s
 
 snakes.obj: snakes.cpp.obj
 .PHONY : snakes.obj
@@ -260,15 +260,15 @@ help:
 	@echo ... Board.obj
 	@echo ... Board.i
 	@echo ... Board.s
-	@echo ... Dice.obj
-	@echo ... Dice.i
-	@echo ... Dice.s
-	@echo ... MyGame.obj
-	@echo ... MyGame.i
-	@echo ... MyGame.s
-	@echo ... Player.obj
-	@echo ... Player.i
-	@echo ... Player.s
+	@echo ... Ladder.obj
+	@echo ... Ladder.i
+	@echo ... Ladder.s
+	@echo ... Snake.obj
+	@echo ... Snake.i
+	@echo ... Snake.s
+	@echo ... Tile.obj
+	@echo ... Tile.i
+	@echo ... Tile.s
 	@echo ... snakes.obj
 	@echo ... snakes.i
 	@echo ... snakes.s

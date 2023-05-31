@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo"
+CMAKE_SOURCE_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/t2_herencia_polimorfismo.dir/clean
 CMakeFiles/t2_herencia_polimorfismo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2_herencia_polimorfismo.dir\build.make CMakeFiles/t2_herencia_polimorfismo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target t2_herencia_polimorfismo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target t2_herencia_polimorfismo"
 .PHONY : CMakeFiles/t2_herencia_polimorfismo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/t2_herencia_polimorfismo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/t2_herencia_polimorfismo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/t2_herencia_polimorfismo.dir/rule
 
 # Convenience name for target.

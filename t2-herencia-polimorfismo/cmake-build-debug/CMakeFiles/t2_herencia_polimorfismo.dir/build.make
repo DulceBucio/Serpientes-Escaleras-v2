@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo"
+CMAKE_SOURCE_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/t2_herencia_polimorfismo.dir/depend.make
@@ -71,94 +71,94 @@ include CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
 CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
 CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj: ../snakes.cpp
 CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.obj -c "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\snakes.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\snakes.cpp"
 
 CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\snakes.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\snakes.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.i
 
 CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\snakes.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\snakes.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\snakes.cpp.s
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
+CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj: ../Tile.cpp
+CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Tile.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Tile.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Tile.cpp"
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Tile.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Tile.cpp.i
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Tile.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Tile.cpp.s
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
+CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj: ../Snake.cpp
+CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Snake.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Snake.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Snake.cpp"
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Snake.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Snake.cpp.i
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Snake.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Snake.cpp.s
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
+CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj: ../Ladder.cpp
+CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Ladder.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Ladder.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Ladder.cpp"
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Ladder.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Ladder.cpp.i
+
+CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Ladder.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Ladder.cpp.s
 
 CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
 CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj: ../Board.cpp
 CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.obj -c "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Board.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Board.cpp"
 
 CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Board.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Board.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.i
 
 CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Board.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.s
-
-CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
-CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj: ../Dice.cpp
-CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Dice.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Dice.cpp.obj -c "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Dice.cpp"
-
-CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Dice.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Dice.cpp.i
-
-CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Dice.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Dice.cpp.s
-
-CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
-CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: ../MyGame.cpp
-CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\MyGame.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\MyGame.cpp.obj -c "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\MyGame.cpp"
-
-CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\MyGame.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\MyGame.cpp.i
-
-CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\MyGame.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\MyGame.cpp.s
-
-CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/flags.make
-CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj: ../Player.cpp
-CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj: CMakeFiles/t2_herencia_polimorfismo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj -MF CMakeFiles\t2_herencia_polimorfismo.dir\Player.cpp.obj.d -o CMakeFiles\t2_herencia_polimorfismo.dir\Player.cpp.obj -c "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Player.cpp"
-
-CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Player.cpp" > CMakeFiles\t2_herencia_polimorfismo.dir\Player.cpp.i
-
-CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Player.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Player.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Board.cpp" -o CMakeFiles\t2_herencia_polimorfismo.dir\Board.cpp.s
 
 # Object files for target t2_herencia_polimorfismo
 t2_herencia_polimorfismo_OBJECTS = \
 "CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj" \
-"CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj" \
-"CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj" \
-"CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj" \
-"CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj"
+"CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj" \
+"CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj" \
+"CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj" \
+"CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj"
 
 # External object files for target t2_herencia_polimorfismo
 t2_herencia_polimorfismo_EXTERNAL_OBJECTS =
 
 t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj
+t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj
+t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj
+t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj
 t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj
-t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/Dice.cpp.obj
-t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj
-t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj
 t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/build.make
 t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/linklibs.rsp
 t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/objects1.rsp
 t2_herencia_polimorfismo.exe: CMakeFiles/t2_herencia_polimorfismo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable t2_herencia_polimorfismo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable t2_herencia_polimorfismo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\t2_herencia_polimorfismo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/t2_herencia_polimorfismo.dir/clean:
 .PHONY : CMakeFiles/t2_herencia_polimorfismo.dir/clean
 
 CMakeFiles/t2_herencia_polimorfismo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo" "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo" "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug" "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug" "C:\Users\yasmi\OneDrive\Documents\2do semestre\poo 2\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles\t2_herencia_polimorfismo.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\cmake-build-debug\CMakeFiles\t2_herencia_polimorfismo.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/t2_herencia_polimorfismo.dir/depend
 

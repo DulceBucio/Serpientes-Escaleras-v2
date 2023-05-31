@@ -6,11 +6,12 @@
 #define T2_HERENCIA_POLIMORFISMO_SNAKE_H
 #include "Tile.h"
 
-class Snake {
-    Tile snake;
+class Snake: public Tile{
 public:
-    Snake();
-    ~Snake();
+    Snake() = default;
+    Snake(const char &type, const int &amount): Tile(type, amount) { };
+    ~Snake() { };
+    void print();
 };
 
 

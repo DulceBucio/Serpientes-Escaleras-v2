@@ -6,3 +6,7 @@
 #include <iostream>
 using namespace std;
 
+void Tile::print() {
+    cout << amount << "\n";
+    cout << type << "\n";
+}
