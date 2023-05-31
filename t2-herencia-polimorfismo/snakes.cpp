@@ -33,7 +33,7 @@ int main() {
             //cout << "Invalid option, please press C to continue next turn or E to end the game" << "\n";
         //}
     //}
-    Board b1(10);
+    Board b1(10, 2, 4);
     b1.printBoard();
     return 0;
 };

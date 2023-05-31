@@ -140,7 +140,10 @@ CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj: ../Board.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
-  ../Tile.h
+  ../Tile.h \
+  ../Snake.h \
+  ../Ladder.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
 
 CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj: ../Ladder.cpp \
   ../Ladder.h \
@@ -973,13 +976,15 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 ../Tile.h:
 
-../Ladder.cpp:
+../Snake.h:
 
 ../Ladder.h:
 
-../Snake.cpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime:
 
-../Snake.h:
+../Ladder.cpp:
+
+../Snake.cpp:
 
 ../Tile.cpp:
 

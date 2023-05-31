@@ -9,9 +9,8 @@
 class Snake: public Tile{
 public:
     Snake() = default;
-    Snake(const char &type, const int &amount): Tile(type, amount) { };
+    Snake(const char &type): Tile(type) { };
     ~Snake() { };
-    void print();
 };
 
 

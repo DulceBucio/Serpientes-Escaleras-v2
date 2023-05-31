@@ -11,6 +11,8 @@
 #include <iostream>
 #include <vector>
 #include "Tile.h"
+#include "Snake.h"
+#include "Ladder.h"
 using namespace std;
 
 

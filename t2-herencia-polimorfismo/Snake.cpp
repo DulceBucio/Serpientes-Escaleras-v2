@@ -6,7 +6,3 @@
 #include <iostream>
 using namespace std;
 
-void Snake::print() {
-    cout << "type: S \n";
-    cout << amount;
-}

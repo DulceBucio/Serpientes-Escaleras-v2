@@ -5,8 +5,3 @@
 #include "Ladder.h"
 #include <iostream>
 using namespace std;
-
-void Ladder::print() {
-    cout << "type: L \n";
-    cout << amount;
-}

@@ -7,6 +7,9 @@
 
 #include <iostream>
 #include "Board.h"
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -21,9 +24,26 @@ using namespace std;
 //}
 
 Board::Board(int numTiles, int numSnakes, int numLadders) {
+    srand(time(0)); // Use current time as seed for random generator
+
     this->numTiles = numTiles;
+    // Fill the entire board with normal tiles
     for (int i = 0; i < numTiles; i++) {
-        this->boxes.push_back(new Tile('N', 1));
+        this->boxes.push_back(new Tile('N'));
+    }
+
+    // Change random tiles to Snakes
+    for (int i = 0; i < numSnakes; i++) {
+        int pos = rand() % numTiles;
+        delete this->boxes[pos];
+        this->boxes[pos] = new Snake('S');
+    }
+
+    // Change random tiles to Ladders
+    for (int i = 0; i < numLadders; i++) {
+        int pos = rand() % numTiles;
+        delete this->boxes[pos];
+        this->boxes[pos] = new Ladder('L');
     }
 }
 //}

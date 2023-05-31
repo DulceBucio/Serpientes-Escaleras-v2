@@ -9,9 +9,8 @@
 class Ladder: public Tile {
 public:
     Ladder() = default;
-    Ladder(const char &type, const int &amount): Tile(type, amount) { };
+    Ladder(const char &type): Tile(type) { };
     ~Ladder() { };
-    void print();
 };
 
 

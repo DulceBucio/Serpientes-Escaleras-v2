@@ -138,4 +138,7 @@ CMakeFiles/t2_herencia_polimorfismo.dir/Board.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Tile.h
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Tile.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Snake.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\t2-herencia-polimorfismo\Ladder.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
