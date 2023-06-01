@@ -44,20 +44,18 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
     player.printPlayer();
     int initialSquare = player.getSquare();
     int currentDice = dice.roll();
-    player.setSquare(player.getSquare()+currentDice);
-    char currentType = board.getType(player.getSquare());
+    player.setSquare(min(player.getSquare() + currentDice, tiles)); // Ensure not to go beyond the board
+    char currentType = 'N';  // Default to 'N' (assuming it stands for 'Normal')
+    if(player.getSquare() < tiles) {  // Only access board if player's position is within bounds
+        currentType = board.getType(player.getSquare());
+    }
     if (currentType == 'S') {
-        player.setSquare(player.getSquare()-penalty);
+        player.setSquare(max(0, player.getSquare()-penalty)); // Ensure not to go beyond the board
     }
     if (currentType == 'L') {
-        player.setSquare(player.getSquare()+reward);
+        player.setSquare(min(player.getSquare()+reward, tiles)); // Ensure not to go beyond the board
     }
-
     int finalSquare = player.getSquare();
-    if (finalSquare >= tiles) {
-        finalSquare = tiles;
-        currentType = 'N';
-    }
     cout << currentDice << " " << currentType << " " << finalSquare << "\n";
     setTurn(getTurn()+1);
 }
@@ -79,17 +77,13 @@ void MyGame::start() { // Begins the game, manages the turn-based gameplay, and 
         cout << "-- GAME OVER -- \n";
         exit(0);
     }
-    if (players[0].getSquare() >= tiles) {
-        cout << "Player #1 is the winner!!! \n";
-        cout << "-- GAME OVER -- \n";
-        exit(0);
-    }
-    else if (players[1].getSquare() >= tiles){
-        cout << "Player #2 is the winner!!! \n";
-        cout << "-- GAME OVER -- \n";
-        exit(0);
+    for (int i = 0; i < numPlayers; ++i) {
+        if (players[i].getSquare() >= tiles) {
+            cout << "Player #" << i + 1 << " is the winner!!! \n";
+            cout << "-- GAME OVER -- \n";
+            exit(0);
+        }
     }
 }
 
 MyGame::~MyGame() {}
-

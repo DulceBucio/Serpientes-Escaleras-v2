@@ -21,7 +21,7 @@ int main() {
     bool activeGame;
     activeGame = true;
     int userTiles, userSnakes, userLadders, userPenalty, userReward, userPlayers, userMaxTurns;
-    cout << "Welcome \n";
+    cout << "Welcome to Ladders and Snakes! \n";
     cout << "Enter the number of tiles for your board \n";
     cin >> userTiles;
     cout << "Enter the number of snakes for your board \n";
