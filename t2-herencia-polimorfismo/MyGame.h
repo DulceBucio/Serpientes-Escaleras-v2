@@ -34,8 +34,6 @@ public:
     void printTurn(Player &player);
     void playGame();
     void start();
-    bool hasWinner();
-    bool reachedTurnLimit();
 };
 
 #endif //SERPIENTES_ESCALERAS_MYGAME_H

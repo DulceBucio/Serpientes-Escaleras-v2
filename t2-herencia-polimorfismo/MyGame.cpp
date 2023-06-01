@@ -66,7 +66,9 @@ void MyGame::playGame() { // Controls the flow of the game by determining which 
     if (currentPlayerIndex == -1){
         currentPlayerIndex = numPlayers - 1;
     }
-    printTurn(players[currentPlayerIndex]);
+    for (currentPlayerIndex; currentPlayerIndex < numPlayers; currentPlayerIndex++){
+        printTurn(players[currentPlayerIndex]);
+    }
 }
 
 void MyGame::start() { // Begins the game, manages the turn-based gameplay, and determines the game's
