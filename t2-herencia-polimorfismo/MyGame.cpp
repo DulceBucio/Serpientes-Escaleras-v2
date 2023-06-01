@@ -20,14 +20,17 @@ MyGame::MyGame() { // Sets up the initial state of the game by initializing the 
     players[1].setSquare(1);
 }
 
-MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int numPlayers, int userMaxTurns, int userReward, int userPenalty) {
+MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int userNumPlayers, int userMaxTurns, int userReward, int userPenalty) {
     Board board(userTiles, userSnakes, userLadders);
     reward = userReward;
     penalty = userPenalty;
     maxTurns = userMaxTurns;
-    players.resize(numPlayers);
+    turn = 1;
+    numPlayers = userNumPlayers;
+    players.resize(userNumPlayers);
     for (int i = 0; i < numPlayers; i++){
-        players[i].init(i);
+        players[i].setPlayerNumber(i+1);
+        players[i].setSquare(1);
     }
 }
 
@@ -58,8 +61,11 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
 
 void MyGame::playGame() { // Controls the flow of the game by determining which player's turn it is and invoking
     // 'printTurn' to print the details of that turn
-    if (turn%2 == 1) { printTurn(players[0]); }
-    else if (turn%2 == 0) { printTurn(players[1]); }
+    int currentPlayerIndex = (turn % numPlayers) - 1;
+    if (currentPlayerIndex == -1){
+        currentPlayerIndex = numPlayers - 1;
+    }
+    printTurn(players[currentPlayerIndex]);
 }
 
 void MyGame::start() { // Begins the game, manages the turn-based gameplay, and determines the game's
