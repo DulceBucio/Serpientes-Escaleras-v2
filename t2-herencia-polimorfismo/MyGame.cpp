@@ -20,6 +20,7 @@ MyGame::MyGame() { // Sets up the initial state of the game by initializing the 
     players[1].setSquare(1);
 }
 
+// Constructor based on the parameters decided by the user
 MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int userNumPlayers, int userMaxTurns, int userReward, int userPenalty) {
     Board board(userTiles, userSnakes, userLadders);
     tiles = userTiles;
@@ -45,7 +46,7 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
     int initialSquare = player.getSquare();
     int currentDice = dice.roll();
     player.setSquare(min(player.getSquare() + currentDice, tiles)); // Ensure not to go beyond the board
-    char currentType = 'N';  // Default to 'N' (assuming it stands for 'Normal')
+    char currentType = 'N';
     if(player.getSquare() < tiles) {  // Only access board if player's position is within bounds
         currentType = board.getType(player.getSquare());
     }
@@ -66,6 +67,7 @@ void MyGame::playGame() { // Controls the flow of the game by determining which 
     if (currentPlayerIndex == -1){
         currentPlayerIndex = numPlayers - 1;
     }
+    // Prints the players by turn
     for (currentPlayerIndex; currentPlayerIndex < numPlayers; currentPlayerIndex++){
         printTurn(players[currentPlayerIndex]);
     }
