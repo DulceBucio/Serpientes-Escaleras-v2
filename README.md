@@ -44,7 +44,7 @@ The game is composed of the following classes:
 
 
 - Board  
-The "Board" class represents a game board for the "Snakes and Ladders" game. It contains a vector of "Tile" objects that represent each box on the board. Additionally, it keeps track of the number of tiles, snakes, and ladders on the board. 
+The "Board" class represents a game board for the "Snakes and Ladders" game. It contains a vector of "Tile" objects that represent each box on the board, whether a Tile could be a Snake or a Ladder. Additionally, it keeps track of the number of tiles, snakes, and ladders on the board. 
 The class has the following member methods:
   - Board(): This is the default constructor for the Board class. It initializes the 'boxes' vector with 31 elements, each set to the character 'N'. It then sets specific elements of the vector to 'S' and 'L', representing the snakes and ladders.
   - Board(int numTiles, int numSnakes, int numLadders): This constructor allows creating a board object by specifying the number of tiles, snakes, and ladders. It fills the entire board with normal tiles, then randomly selects positions to replace with snakes and ladders.
