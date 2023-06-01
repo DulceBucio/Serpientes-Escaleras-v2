@@ -43,7 +43,7 @@ The game is composed of the following classes:
 - MyGame
 
 
-- Board 
+- Board  
 The "Board" class represents a game board for the "Snakes and Ladders" game. It contains a vector of "Tile" objects that represent each box on the board. Additionally, it keeps track of the number of tiles, snakes, and ladders on the board. 
 The class has the following member methods:
   - Board(): This is the default constructor for the Board class. It initializes the 'boxes' vector with 31 elements, each set to the character 'N'. It then sets specific elements of the vector to 'S' and 'L', representing the snakes and ladders.
@@ -62,7 +62,7 @@ The class has the following member methods:
   - int roll(): This function simulates rolling the dice and returns a random number between 1 and the number of faces on the dice. It uses the rand() function from the <cstdlib> library to generate a random number within the range of faces and returns it.   
 The number of faces on the dice is represented by the faces member variable, which is an integer. The constructor allows specifying the number of faces when creating a dice object. The roll() function utilizes this value to generate a random number within the valid range of faces.
 
-- Tile
+- Tile  
 The "Tile" class represents a tile on the game board. It serves as the base class for other specific tile types such as snakes and ladders. 
 The class has the following member methods:
   - Tile(): This is the default constructor for the Tile class. It initializes a tile with the default type.
@@ -72,14 +72,14 @@ The class has the following member methods:
   - void setType(const char &type): This function sets the type of the tile to the specified value.
   - void print(): This function prints the type of the tile to the console.
   
-- Snake
+- Snake  
 The "Snake" class is a derived class of the "Tile" class. It represents a snake tile on the game board. 
 The class has the following member methods:
   - Snake(): This is the default constructor for the Snake class. It initializes a snake tile with the default type.
   - Snake(const char &type): This constructor allows creating a snake tile object by specifying the type. It initializes the snake tile with the specified type.
   - ~Snake(): This is the destructor for the Snake class. It doesn't perform any specific cleanup since the snake tile object doesn't require any dynamic memory allocation.
   
-- Ladder
+- Ladder  
 The "Ladder" class is a derived class of the "Tile" class. It represents a ladder tile on the game board. 
 The class has the following member methods:
   - Ladder(): This is the default constructor for the Ladder class. It initializes a ladder tile with the default type.
