@@ -34,7 +34,9 @@ Enjoy the Snakes and Ladders game!
 
 ## Classes
 The game is composed of the following classes:
-
+-Tile
+-Snake
+-Ladder
 - Board  
 The "Board" class represents a game board for the "Snakes and Ladders" game. It manages the state of the board and provides methods to interact with it.
 The class has the following member methods:
