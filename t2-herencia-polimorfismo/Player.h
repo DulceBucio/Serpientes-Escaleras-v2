@@ -18,7 +18,6 @@ public:
     //Constructors
     Player() = default;
     Player(const int &playerNumber, const int &square): playerNumber(playerNumber), square(square) { };
-    void init(int);
     Player(const Player &playerCopy): playerNumber(playerCopy.playerNumber), square(playerCopy.square) { };
     Player(int,int);
 

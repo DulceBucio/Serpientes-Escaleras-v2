@@ -1,5 +1,8 @@
 //
-// Created by Dulce Nahomi Bucio Rivas | A01425284 on 29/05/2023.
+// Created by
+// Dulce Nahomi Bucio Rivas | A01425284
+// Desirée Espinosa Contreras | A01425162
+// TC1030 - 31/05/2023
 //
 
 #include "Tile.h"

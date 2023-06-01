@@ -2,7 +2,7 @@
 // Created by
 // Dulce Nahomi Bucio Rivas | A01425284
 // Desirée Espinosa Contreras | A01425162
-// TC1030 - 19/05/2023
+// TC1030 - 31/05/2023
 //
 
 #ifndef SERPIENTES_ESCALERAS_MYGAME_H
@@ -14,11 +14,9 @@
 #include "Dice.h"
 
 class MyGame {
-    int turn;
-    int numPlayers;
+    int turn, numPlayers, maxTurns;
     vector<Player> players;
     Player currentPlayer;
-    int maxTurns;
     Board board;
     int penalty, reward, tiles, snakes, ladders;
 public:
