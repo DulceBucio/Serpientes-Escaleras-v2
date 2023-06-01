@@ -82,5 +82,5 @@ void MyGame::start() { // Begins the game, manages the turn-based gameplay, and 
     }
 }
 
-
 MyGame::~MyGame() {}
+
