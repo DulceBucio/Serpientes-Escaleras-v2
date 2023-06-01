@@ -22,6 +22,9 @@ MyGame::MyGame() { // Sets up the initial state of the game by initializing the 
 
 MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int userNumPlayers, int userMaxTurns, int userReward, int userPenalty) {
     Board board(userTiles, userSnakes, userLadders);
+    tiles = userTiles;
+    snakes = userSnakes;
+    ladders = userLadders;
     reward = userReward;
     penalty = userPenalty;
     maxTurns = userMaxTurns;
@@ -51,8 +54,8 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
     }
 
     int finalSquare = player.getSquare();
-    if (finalSquare >= 30) {
-        finalSquare = 30;
+    if (finalSquare >= tiles) {
+        finalSquare = tiles;
         currentType = 'N';
     }
     cout << currentDice << " " << currentType << " " << finalSquare << "\n";
@@ -76,12 +79,12 @@ void MyGame::start() { // Begins the game, manages the turn-based gameplay, and 
         cout << "-- GAME OVER -- \n";
         exit(0);
     }
-    if (players[0].getSquare() > 30) {
+    if (players[0].getSquare() >= tiles) {
         cout << "Player #1 is the winner!!! \n";
         cout << "-- GAME OVER -- \n";
         exit(0);
     }
-    else if (players[1].getSquare() > 30){
+    else if (players[1].getSquare() >= tiles){
         cout << "Player #2 is the winner!!! \n";
         cout << "-- GAME OVER -- \n";
         exit(0);
