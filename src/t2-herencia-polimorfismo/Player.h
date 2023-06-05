@@ -8,10 +8,12 @@
 #ifndef SERPIENTES_ESCALERAS_PLAYER_H
 #define SERPIENTES_ESCALERAS_PLAYER_H
 #include <iostream>
+#include "Person.h"
 using namespace std;
 #pragma once
 
-class Player {
+class Player: public Person {
+private:
     int playerNumber;
     int square;
 public:

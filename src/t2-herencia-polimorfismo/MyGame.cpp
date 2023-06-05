@@ -70,6 +70,7 @@ void MyGame::playGame() { // Controls the flow of the game by determining which 
     // Prints the players by turn
     for (currentPlayerIndex; currentPlayerIndex < numPlayers; currentPlayerIndex++){
         printTurn(players[currentPlayerIndex]);
+
     }
 }
 
@@ -89,5 +90,7 @@ void MyGame::start() { // Begins the game, manages the turn-based gameplay, and 
         }
     }
 }
+
+
 
 MyGame::~MyGame() {}

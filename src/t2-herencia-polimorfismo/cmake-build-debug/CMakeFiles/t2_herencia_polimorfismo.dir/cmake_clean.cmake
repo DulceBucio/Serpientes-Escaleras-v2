@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/t2_herencia_polimorfismo.dir/Ladder.cpp.obj.d"
   "CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj"
   "CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj.d"
+  "CMakeFiles/t2_herencia_polimorfismo.dir/Person.cpp.obj"
+  "CMakeFiles/t2_herencia_polimorfismo.dir/Person.cpp.obj.d"
   "CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj"
   "CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj.d"
   "CMakeFiles/t2_herencia_polimorfismo.dir/Snake.cpp.obj"
