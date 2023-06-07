@@ -42,25 +42,24 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
     //srand(time(0));
     cout << turn << " ";
     Dice dice;
-    player.printPlayer();
+    cout << player;
     int initialSquare = player.getSquare();
     int currentDice = dice.roll();
-    player.setSquare(min(player.getSquare() + currentDice, tiles)); // Ensure not to go beyond the board
-    char currentType = 'N';
-    if(player.getSquare() < tiles) {  // Only access board if player's position is within bounds
-        currentType = board.getType(player.getSquare());
-    }
-    if (currentType == 'S') {
-        player.setSquare(max(0, player.getSquare()-penalty)); // Ensure not to go beyond the board
-    }
-    if (currentType == 'L') {
-        player.setSquare(min(player.getSquare()+reward, tiles)); // Ensure not to go beyond the board
-    }
-    int finalSquare = player.getSquare();
-    cout << currentDice << " " << currentType << " " << finalSquare << "\n";
-    setTurn(getTurn()+1);
-}
+    Player tempPlayer = player + currentDice;
+    int finalSquare = tempPlayer.getSquare();
 
+    if (finalSquare < tiles) {
+        char currentType = board.getType(finalSquare);
+
+        if (currentType == 'L') {
+            finalSquare = min(finalSquare + reward, tiles);
+        } else if (currentType == 'S') {
+            finalSquare = max(0, finalSquare - penalty);
+        }
+        cout << currentDice << " " << currentType << " " << finalSquare << "\n";
+        setTurn(getTurn() + 1);
+    }
+}
 void MyGame::playGame() { // Controls the flow of the game by determining which player's turn it is and invoking
     // 'printTurn' to print the details of that turn
     int currentPlayerIndex = (turn % numPlayers) - 1;

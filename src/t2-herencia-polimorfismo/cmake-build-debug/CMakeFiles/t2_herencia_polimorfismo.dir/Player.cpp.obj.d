@@ -1,6 +1,6 @@
 CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj: \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Player.cpp \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Player.h \
+ C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Player.cpp \
+ C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Player.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -133,4 +133,4 @@ CMakeFiles/t2_herencia_polimorfismo.dir/Player.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Person.h
+ C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Person.h

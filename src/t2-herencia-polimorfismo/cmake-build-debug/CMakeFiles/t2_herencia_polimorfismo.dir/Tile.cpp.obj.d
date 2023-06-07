@@ -1,6 +1,6 @@
 CMakeFiles/t2_herencia_polimorfismo.dir/Tile.cpp.obj: \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Tile.cpp \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Tile.h \
+ C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Tile.cpp \
+ C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Tile.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

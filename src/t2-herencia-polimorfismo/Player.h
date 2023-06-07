@@ -34,6 +34,21 @@ public:
     void setPlayerNumber(int playerNumber) { this->playerNumber = playerNumber; }
     void setSquare(int square) { this->square = square; }
     void printPlayer();
+
+    // Operator overloading
+    Player operator+(int value) const {
+        return Player(*this) += value;
+    }
+
+    Player& operator+=(int value) {
+        square += value;
+        return *this;
+    }
+    friend ostream &operator<<(ostream &print, Player player)
+    {
+        print << player.getName() << " " << player.getPlayerNumber();
+        return print;
+    }
 };
 
 
