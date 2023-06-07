@@ -40,23 +40,22 @@ MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int userNumPlayer
 
 void MyGame::printTurn(Player &player) { // Prints the details of a player's turn
     Dice dice;
-    cout << turn.getTurn() << " ";
+    cout << turn;
     cout << player;
     int initialSquare = player.getSquare();
     int currentDice = dice.roll();
     player.setSquare(initialSquare + currentDice);
     int finalSquare = player.getSquare();
-
+    char currentType = board.getType(finalSquare);
     if (finalSquare < tiles) {
-        char currentType = board.getType(finalSquare);
         if (currentType == 'L') {
             finalSquare = min(finalSquare + reward, tiles);
         } else if (currentType == 'S') {
             finalSquare = max(0, finalSquare - penalty);
         }
-        cout << currentDice << " " << currentType << " " << finalSquare << "\n";
-        turn.setTurn(turn.getTurn() + 1);
+        turn++;
     }
+    cout << currentDice << " " << currentType << " " << finalSquare << "\n";
 }
 
 void MyGame::playGame() { // Controls the flow of the game by determining which player's turn it is and invoking
@@ -75,7 +74,7 @@ void MyGame::playGame() { // Controls the flow of the game by determining which 
 void MyGame::start() { // Begins the game, manages the turn-based gameplay, and determines the game's
     // outcome based on the max number of turns and players' positions on the board
     playGame();
-    if (turn.getTurn() > maxTurns) {
+    if (turn > maxTurns) {
         cout << "The maximum number of turns has been reached... \n";
         cout << "-- GAME OVER -- \n";
         exit(0);

@@ -14,6 +14,26 @@ public:
     Turn(int): turn(turn) {};
     int getTurn() {return turn;}
     void setTurn(int turn) {this ->turn = turn;}
+
+    Turn& operator++() {
+        ++turn;
+        return *this;
+    }
+
+    Turn operator++(int) {
+        Turn temp = *this;
+        ++turn;
+        return temp;
+    }
+
+    bool operator>(const int value) const {
+        return turn > value;
+    }
+
+    friend ostream& operator<< (ostream &print, Turn& turn) {
+        print << turn.getTurn() << " ";
+        return print;
+    }
 };
 
 
