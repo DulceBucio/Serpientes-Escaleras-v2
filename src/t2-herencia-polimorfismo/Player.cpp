@@ -20,3 +20,4 @@ void Player::printPlayer() { // Method that shows the player attributes
     cout << playerNumber << " ";
     cout << square << " ";
 }
+

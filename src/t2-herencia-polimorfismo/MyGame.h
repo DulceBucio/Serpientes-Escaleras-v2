@@ -32,9 +32,8 @@ public:
     void printTurn(Player &player);
     void playGame();
     void start();
-    //int operator+(const& Player, const& int) const;
 };
 
-ostream& operator<<(ostream& print, Player player);
+
 
 #endif //SERPIENTES_ESCALERAS_MYGAME_H

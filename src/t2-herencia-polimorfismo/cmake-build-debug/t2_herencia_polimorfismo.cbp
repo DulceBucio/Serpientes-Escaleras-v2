@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="t2_herencia_polimorfismo">
-				<Option output="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/t2_herencia_polimorfismo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
+				<Option output="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/t2_herencia_polimorfismo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -34,15 +34,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2_herencia_polimorfismo"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2_herencia_polimorfismo"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="t2_herencia_polimorfismo/fast">
-				<Option output="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/t2_herencia_polimorfismo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
+				<Option output="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/t2_herencia_polimorfismo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,85 +57,85 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2_herencia_polimorfismo/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2_herencia_polimorfismo/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Board.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Board.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Board.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Board.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Dice.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Dice.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Dice.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Dice.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Ladder.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Ladder.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Ladder.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Ladder.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/MyGame.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/MyGame.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/MyGame.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/MyGame.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Person.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Person.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Person.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Person.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Player.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Player.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Player.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Player.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Snake.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Snake.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Snake.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Snake.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Tile.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Tile.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Tile.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/Tile.h">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/snakes.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/snakes.cpp">
 			<Option target="t2_herencia_polimorfismo"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/CMakeLists.txt">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras-v2/src/t2-herencia-polimorfismo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

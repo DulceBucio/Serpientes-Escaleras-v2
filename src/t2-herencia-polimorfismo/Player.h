@@ -44,9 +44,9 @@ public:
         square += value;
         return *this;
     }
-    friend ostream &operator<<(ostream &print, Player player)
-    {
-        print << player.getName() << " " << player.getPlayerNumber();
+
+    friend ostream& operator<< (ostream &print, Player& player) {
+        print << player.getPlayerNumber() << " " << player.getSquare() << " ";
         return print;
     }
 };

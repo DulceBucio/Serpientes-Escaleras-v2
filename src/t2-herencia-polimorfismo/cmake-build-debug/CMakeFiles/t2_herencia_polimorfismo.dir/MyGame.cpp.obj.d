@@ -1,6 +1,6 @@
 CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\MyGame.cpp \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\MyGame.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\MyGame.cpp \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\MyGame.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -138,11 +138,11 @@ CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Player.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Person.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Board.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Tile.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Snake.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Ladder.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Dice.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Player.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Person.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Board.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Tile.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Snake.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Ladder.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Dice.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime

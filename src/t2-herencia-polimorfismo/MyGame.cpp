@@ -45,12 +45,11 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
     cout << player;
     int initialSquare = player.getSquare();
     int currentDice = dice.roll();
-    Player tempPlayer = player + currentDice;
-    int finalSquare = tempPlayer.getSquare();
+    player.setSquare(initialSquare + currentDice);
+    int finalSquare = player.getSquare();
 
     if (finalSquare < tiles) {
         char currentType = board.getType(finalSquare);
-
         if (currentType == 'L') {
             finalSquare = min(finalSquare + reward, tiles);
         } else if (currentType == 'S') {
