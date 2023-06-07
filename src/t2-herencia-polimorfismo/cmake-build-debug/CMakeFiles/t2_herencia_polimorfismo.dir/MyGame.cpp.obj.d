@@ -145,4 +145,5 @@ CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: \
  C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Snake.h \
  C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Ladder.h \
  C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Dice.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras-v2\src\t2-herencia-polimorfismo\Turn.h

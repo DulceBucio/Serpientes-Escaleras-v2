@@ -12,9 +12,11 @@
 #include "Player.h"
 #include "Board.h"
 #include "Dice.h"
+#include "Turn.h"
 
 class MyGame {
-    int turn, numPlayers, maxTurns;
+    Turn turn;
+    int numPlayers, maxTurns;
     vector<Player> players;
     Player currentPlayer;
     Board board;
@@ -26,8 +28,6 @@ public:
     // Destructor
     ~MyGame();
     // Methods
-    int getTurn() {return turn;}
-    void setTurn(int turn) {this ->turn = turn;}
     void setMaxTurns(int maxTurns) {this ->maxTurns = maxTurns;}
     void printTurn(Player &player);
     void playGame();

@@ -563,7 +563,8 @@ CMakeFiles/t2_herencia_polimorfismo.dir/MyGame.cpp.obj: ../MyGame.cpp \
   ../Snake.h \
   ../Ladder.h \
   ../Dice.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+  ../Turn.h
 
 CMakeFiles/t2_herencia_polimorfismo.dir/Person.cpp.obj: ../Person.cpp \
   ../Person.h \
@@ -1253,7 +1254,8 @@ CMakeFiles/t2_herencia_polimorfismo.dir/snakes.cpp.obj: ../snakes.cpp \
   ../MyGame.h \
   ../Player.h \
   ../Person.h \
-  ../Dice.h
+  ../Dice.h \
+  ../Turn.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits:
@@ -1263,6 +1265,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32
 ../Board.cpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
+
+../Turn.h:
 
 ../Dice.h:
 

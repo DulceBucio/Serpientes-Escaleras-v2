@@ -13,7 +13,7 @@ using namespace std;
 MyGame::MyGame() { // Sets up the initial state of the game by initializing the max number of turns,
     // player numbers, and their starting positions on the board
     maxTurns = 30;
-    turn = 1;
+    turn.setTurn(1);
     players[0].setPlayerNumber(1);
     players[1].setPlayerNumber(2);
     players[0].setSquare(1);
@@ -29,7 +29,7 @@ MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int userNumPlayer
     reward = userReward;
     penalty = userPenalty;
     maxTurns = userMaxTurns;
-    turn = 1;
+    turn.setTurn(1);
     numPlayers = userNumPlayers;
     players.resize(userNumPlayers);
     for (int i = 0; i < numPlayers; i++){
@@ -39,9 +39,8 @@ MyGame::MyGame(int userTiles, int userSnakes, int userLadders, int userNumPlayer
 }
 
 void MyGame::printTurn(Player &player) { // Prints the details of a player's turn
-    //srand(time(0));
-    cout << turn << " ";
     Dice dice;
+    cout << turn.getTurn() << " ";
     cout << player;
     int initialSquare = player.getSquare();
     int currentDice = dice.roll();
@@ -56,12 +55,13 @@ void MyGame::printTurn(Player &player) { // Prints the details of a player's tur
             finalSquare = max(0, finalSquare - penalty);
         }
         cout << currentDice << " " << currentType << " " << finalSquare << "\n";
-        setTurn(getTurn() + 1);
+        turn.setTurn(turn.getTurn() + 1);
     }
 }
+
 void MyGame::playGame() { // Controls the flow of the game by determining which player's turn it is and invoking
     // 'printTurn' to print the details of that turn
-    int currentPlayerIndex = (turn % numPlayers) - 1;
+    int currentPlayerIndex = (turn.getTurn() % numPlayers) - 1;
     if (currentPlayerIndex == -1){
         currentPlayerIndex = numPlayers - 1;
     }
@@ -75,7 +75,7 @@ void MyGame::playGame() { // Controls the flow of the game by determining which 
 void MyGame::start() { // Begins the game, manages the turn-based gameplay, and determines the game's
     // outcome based on the max number of turns and players' positions on the board
     playGame();
-    if (getTurn() > maxTurns) {
+    if (turn.getTurn() > maxTurns) {
         cout << "The maximum number of turns has been reached... \n";
         cout << "-- GAME OVER -- \n";
         exit(0);
