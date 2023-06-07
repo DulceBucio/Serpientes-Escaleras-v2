@@ -39,6 +39,7 @@ The game is composed of the following classes:
 - Tile
 - Snake
 - Ladder
+- Person
 - Player
 - MyGame
 
@@ -87,6 +88,7 @@ The class has the following member methods:
   - ~Ladder(): This is the destructor for the Ladder class. It doesn't perform any specific cleanup since the ladder tile object doesn't require any dynamic memory allocation.
   
 - Person
+  
 The Person class is a basic class that models a simple entity: a person with a name. This class can serve as a foundational class for more complex classes.
 The class has the following member methods:
   - Person(): A default constructor that creates a new Person object.
