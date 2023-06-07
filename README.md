@@ -39,6 +39,7 @@ The game is composed of the following classes:
 - Tile
 - Snake
 - Ladder
+- Person
 - Player
 - MyGame
 
@@ -86,6 +87,18 @@ The class has the following member methods:
   - Ladder(const char &type): This constructor allows creating a ladder tile object by specifying the type. It initializes the ladder tile with the specified type.
   - ~Ladder(): This is the destructor for the Ladder class. It doesn't perform any specific cleanup since the ladder tile object doesn't require any dynamic memory allocation.
   
+- Person
+  
+The Person class is a basic class that models a simple entity: a person with a name. This class can serve as a foundational class for more complex classes.
+The class has the following member methods:
+  - Person(): A default constructor that creates a new Person object.
+  - Person(const string name): A parameterized constructor that creates a new Person object with a given name.
+  - Person(const Person &personCopy): A copy constructor that creates a new Person object as a copy of an existing one.
+  - ~Person(): The destructor that cleans up a Person object when it is no longer needed.
+  - string getName(): A member function that retrieves the name of the Person object.
+  - void setName(const string &name): A member function that sets the name of the Person object.
+  - void printPerson(): A member function that prints the information of the Person object. The definition for this function is not provided in the class, and needs to be implemented.
+  
 - Player  
 The "Player" class represents a player in the "Snakes and Ladders" game. It keeps track of the player's number and current square position on the game board.
 The class has the following member methods:
@@ -100,6 +113,9 @@ The class has the following member methods:
   - void setPlayerNumber(int playerNumber): This mutator function sets the player's number to the specified value.
   - void setSquare(int square): This mutator function sets the player's current square position to the specified value.
   - void printPlayer(): This method prints the player's attributes, including the player's number and current square position, to the console.
+  - Player operator+(int value): 
+  - Player& operator+=(int value):
+  - ostream& operator<< (ostream &print, Player& player):
   
 - MyGame  
 The "MyGame" class represents the game logic for the "Snakes and Ladders" game. It manages the players, the game board, and the gameplay.
